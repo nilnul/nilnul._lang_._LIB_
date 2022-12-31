@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.lang</RootNamespace>
+    <AssemblyName>nilnul._lang_._LIB_</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PreferChinese|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\PreferChinese\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_PreferChinese|AnyCPU'">
+    <OutputPath>bin\Release_PreferChinese\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Hbue40|AnyCPU'">
+    <OutputPath>bin\Hbue40\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Symbol|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+    <!--<LangVersion>latest</LangVersion>-->
+    <!--<LangVersion>preview</LangVersion>-->
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Nuget|AnyCPU'">
+    <OutputPath>bin\Nuget\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <LangVersion>default</LangVersion>
+    <!--<LangVersion>latest</LangVersion>-->
+    <!--<LangVersion>preview</LangVersion>-->
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Nuget|AnyCPU'">
+    <OutputPath>bin\Nuget\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <!--<LangVersion>7.3</LangVersion>-->
+    <!--<LangVersion>default</LangVersion>-->
+    <LangVersion>latest</LangVersion>
+    <!--<LangVersion>preview</LangVersion>-->
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Nuget|AnyCPU'">
+    <OutputPath>bin\Nuget\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <!--<LangVersion>7.3</LangVersion>-->
+    <!--<LangVersion>default</LangVersion>-->
+    <LangVersion>latest</LangVersion>
+    <!--<LangVersion>preview</LangVersion>-->
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>t.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\(packages)\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\..\(packages)\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._bit_._LIB_.1.1.220822.32314\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>global,bit</Aliases>
+    </Reference>
+    <Reference Include="nilnul._character_._LIB_, Version=2.1.8272.35271, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._character_._LIB_.2.1.220825.113426\lib\net481\nilnul._character_._LIB_.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>global,character</Aliases>
+    </Reference>
+    <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._num_._LIB_.1.1.220826.15831\lib\net481\nilnul._num_._LIB_.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>global,num</Aliases>
+    </Reference>
+    <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._num_._LINQ_.1.1.220825.155237\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._obj_._LIB_.1.2.220905.122106\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>global,obj</Aliases>
+    </Reference>
+    <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._rel_._LIB_.1.2.220817.152548\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._set_._LIB_.1.1.220728.133856\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\nilnul._txt_._LIB_.1.1.220828.153602\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>global,txt</Aliases>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\_nilnul_._LIB_.1.1.220819.143251\lib\net481\_nilnul_._LIB_.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\(packages)\_nilnul_._LINQ_.1.1.220819.143032\lib\net481\_nilnul_._LINQ_.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="be_\Ambiguous.cs" />
+    <Compile Include="CompilerI.cs" />
+    <Compile Include="CompileI.cs" />
+    <Compile Include="data_\type\Mem.cs" />
+    <Compile Include="nilnul0\ILang.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\derive\ISentential.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\derive_\ILeftmost.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\derive_\IRightmost.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\derive_\rightmost\ISentential.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\derive_\rightmost\sentential\Handle.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\rule\IDerivation.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\rule\IReduction.cs" />
+    <Compile Include="_compile_\ILex.cs" />
+    <Compile Include="_compile_\ITex.cs" />
+    <Compile Include="_lex\IDocket.cs" />
+    <Compile Include="_lex_\IParse.cs" />
+    <Compile Include="_lex_\IPhrase.cs" />
+    <Compile Include="_syntax\grammar_\_preproc\Comment.cs" />
+    <Compile Include="_syntax\grammar_\_preproc\comment_\Adfix.cs" />
+    <Compile Include="_tex_\ICompose.cs" />
+    <Compile Include="ILex.cs" />
+    <Compile Include="ITex.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\ParseException.cs" />
+    <Compile Include="nilnul0\lang_\Interpetation.cs" />
+    <Compile Include="nilnul0\lang_\interpretation_\Misunderstand.cs" />
+    <Compile Include="nilnul0\lang_\Lamina.cs" />
+    <Compile Include="nilnul0\lang_\laminA_\hardware_\eg_\Clang.cs" />
+    <Compile Include="nilnul0\lang_\Trivia.cs" />
+    <Compile Include="nilnul0\lang_\_expr\op\_priority\Precedence.cs" />
+    <Compile Include="nilnul0\lang_\_machine\Instructions.cs" />
+    <Compile Include="nilnul0\_lang\IClob.cs" />
+    <Compile Include="nilnul0\_lang\IClobs.cs" />
+    <Compile Include="nilnul0\_lang\_clob\ISentences.cs" />
+    <Compile Include="nilnul0\_lang\_clob\sentence\IEnd.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\IClause.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\clause\IEnd.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\_frame\IEmbody.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\IPhrasal.cs" />
+    <Compile Include="nilnul0\_lang\_clob\ISentence.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\_frame\_embody\token_\IPunc.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\_frame\_embody\token_\IWord.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\_frame\_embody\_tokens\IWhitespace.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\_frame\_embody\_tokens\IComment.cs" />
+    <Compile Include="nilnul0\_lang\_clob\_sentence\_clause\_frame\_embody\_token\IJunc.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\str_\_AllX.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\str_\IAll.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\str_\Phase.cs" />
+    <Compile Include="nilnul0\_lang\syntax\_styled\Style.cs" />
+    <Compile Include="nilnul0\_lang\syntax_\Xml.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\be_\Tree.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\be_\Linear.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\vs_\Regex_ContextFree.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\Character.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\chomskY_\CombinatorySkLogic.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\IContextual.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_clause\phrase\Idiomizer.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\Linker.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\Tokenizer.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_character\Preproc.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\character\Scanner.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\token_\IPunc.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\token_\IWord.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\token_\word_\INonnum.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\token_\word_\Number.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_parser_\Eval.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\Whitespace.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\Segmentate.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\deduce\_phrase\ISep.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\_rule\Formula.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\_rule_\left\nonterminals_\Right.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\_rule_\Right.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\_rule_\Left.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\_rule_\right\nonterminals_\Right.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar_\Pred.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar_\Symbols.cs" />
+    <Compile Include="nilnul0\_lang\_\Syntax.cs" />
+    <Compile Include="nilnul0\_lang_\LangI.cs" />
+    <Compile Include="procedure\run\Mem.cs" />
+    <Compile Include="procedure\run\_mem_\Stack.cs" />
+    <Compile Include="Runtime.cs" />
+    <Compile Include="semantic\Claim.cs" />
+    <Compile Include="str_\General.cs" />
+    <Compile Include="_compile\IBarrier.cs" />
+    <Compile Include="_lex\docket_\xpn_\Empty.cs" />
+    <Compile Include="_tex\symbol_\IEmpty.cs" />
+    <Compile Include="_run\Env.cs" />
+    <Compile Include="nilnul0\txt\lanG_\Scan.cs" />
+    <Compile Include="_tex_\ICompile.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\op_\binary\_call_\Args.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\chomsky.cs" />
+    <Compile Include="nilnul0\_lang\syntax_\Empty.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\join\Cumulator.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary\cumulator_\Unardable.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\Unary.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\Binary.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary\Call.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary\call_\OpDefault.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary\Cumulator.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary\cumulator_\OpDefault.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary\_call_\Ret.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\Join.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\join\cumulator_\Unardable.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\union\Cumulator.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\_union\Ret.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\_join\Ret.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary\Call.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary\call_\OpDefault.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary\_call_\Ret.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary_\Poly.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary_\Kleene.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\binary_\Union.cs" />
+    <Compile Include="nilnul0\_lang\Syntax.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\be_\PassI.cs" />
+    <Compile Include="nilnul0\_lang\syntax\BuildI.cs" />
+    <Compile Include="Dev.cs" />
+    <Compile Include="co\op\Divide.cs" />
+    <Compile Include="lib_\ThirdParty.cs" />
+    <Compile Include="lib_\BuiltIn.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\Lex.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\TreeByParen.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\TokenI.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token\be_\Atomic.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token\be_\DuoOp.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token\stream_\StrAsStream.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token\str\ToTxt.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token\str_\List.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token_\%28classes%29.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize\_lex\token_\AtomicI.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\arg_\AtomX.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\Idiomize4PlainExpr.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\Alternate.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\AlternateI.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\alter\be_\Formula.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\alter\be_\wellFormed\Vow.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\alter\vow_\idiom\Ed.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\NubI.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub\Str.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\ArgI.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\arg_\%28subs%29.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\OpI.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\op\OpX.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\op\Priority.cs" />
+    <Compile Include="nilnul0\bit\expr_.plain\parse_\_treeByParen\_idiomize_\_alternate\nub_\op_\DuoOpI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\Parse.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\Lex.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\AtomX.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\Tokens2WellCombined.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\TokenI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token_\%28classes%29.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\be_\Atomic.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\be_\DuoOp.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\stream_\Stream.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\str_\List.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\str\ToTxt.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token_\AtomicI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\Alternate.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\AlternateI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\alter\be_\Formula.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\alter\be_\wellFormed\Vow.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\alter\vow_\wellFormed\Ed.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\NubI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub_\ArgI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub_\arg_\DuoArgI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub_\OpI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub_\op_\DuoOpI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub\Str.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub_\op\OpX.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_parse\_tokens2WellCombined\_wellCombined\_alternate\nub_\op\Priority.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\Quodratise.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\Walk.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\Lex1.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\Parse.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\parser\LlC.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\parser\LookAhead.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\parser\_laCLr\StatusI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\parser\_laCLr\status\ExpectArg1_.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_build\AtomX.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\AlternateI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\Alternate.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\NubI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\nub_\nub\ArgI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\nub_\nub\OpI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\nub_\nub\op\DuoOpI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\nub_\nub\arg\DuoArgI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\op\OpX.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\op\Priority.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\nub_\nub\Str.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\%28retiring\TokenI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\AtomicI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\be\Atomic.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\be\DuoOp.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\Stack.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\Stream.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\Priority.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\%28classes%29.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\str\List.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_parser\Expr.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_parser\symbol\Stack.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_parser\symbol\Symbol.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_walk\alter\be\Formula.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\RegexI.cs" />
+    <Compile Include="nilnul0\lang_\UriI.cs" />
+    <Compile Include="nilnul0\lang_\uri_\UrnI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\GrammarI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\CompilerI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\_word_\Morpheme.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_lexer\IdiomI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_linker\ProcedureI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary_\_kleene\Ret.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex\op_\unary_\_poly\Ret.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex_\%28essential_\Empty.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex_\%28essential_\NewFolder1\Silent.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word\regex_\Char.cs" />
+    <Compile Include="nilnul0\_lang\syntax_\Silent.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\single_\Char.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\rule_\Linear.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_parser\ret_\SentenceI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\WordI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\word_\DevI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar_\GoalI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar_\ProductionsI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_lexer\_idiom\CopulaI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_parser\ret_\_sentence\PatternI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\%28\GrammarI.cs" />
+    <Compile Include="nilnul0\_lang\syntax_\MultiPass.cs" />
+    <Compile Include="nilnul0\_lang\Semantics.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar_\ProductionI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\clause\Parser.cs" />
+    <Compile Include="nilnul0\LangI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax_\Syntax.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\op_\BinaryI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\op_\binary_\Join.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar\op_\binary_\_join\Ret.cs" />
+    <Compile Include="TranslateI.cs" />
+    <Compile Include="translate_\CompileI.cs" />
+    <Compile Include="translate_\InterpretI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_lexer\LexI.cs" />
+    <Compile Include="nilnul0\_lang\syntax\_build\SrcI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_lexer\words\PhraseI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_scanner\character\str\Scanner.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_scanner\character\str\_scanner\Lexeme.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_lexer\lexeme\Evaluator.cs" />
+    <Compile Include="nilnul0\_lang\syntax\TranspileI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\ret_\TokenI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\ret_\token\StreamI.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\grammar_\_tokenizer\ret_\token\stream\StrAsStream.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_parser\Symbol.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\parser\TryEveryRule.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\TokenI.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\str\ToTxt.cs" />
+    <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\lexer\Any.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\Rule.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\rule_\Recursion.cs" />
+    <Compile Include="nilnul0\_lang\_syntax\_grammar\rule_\Epsilon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="compile\" />
+    <Folder Include="lex\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\%28retiring\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\parser\_parenExt\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\walk\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\rel\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\stream\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\sub\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_quodra\" />
+    <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\stream_\construct_\" />
+    <Folder Include="nilnul0\lang_\bitExpr\lex\" />
+    <Folder Include="nilnul0\lang_\machine\" />
+    <Folder Include="nilnul0\lang_\sln\" />
+    <Folder Include="nilnul0\lang_\_bit\" />
+    <Folder Include="nilnul0\obj\phrase_\json_\" />
+    <Folder Include="nilnul0\_lang\syntaxes\" />
+    <Folder Include="nilnul0\_lang\syntax\build\" />
+    <Folder Include="nilnul0\_lang\syntax\_build\phase_\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar\co_\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\clause_\type\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\link\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\phrase\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\single_\~\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\word\regex\calc_\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\word_\dev_\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\_compiler\ret_\Program\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\_lexer\ret_\exprs\" />
+    <Folder Include="nilnul0\_lang\_syntax\grammar_\_linker\output_\modules\" />
+    <Folder Include="nilnul0\_lang\_syntax\_grammar\rule\_phrase\" />
+    <Folder Include="nilnul0\_lang\_syntax\_grammar\_rule_\left\nonterminals\" />
+    <Folder Include="nilnul0\_lang\_syntax\_grammar\_rule_\right\nonterminals\" />
+    <Folder Include="nilnul0\_lang\_syntax\_grammar\_rule_\right_\" />
+    <Folder Include="nilnul0\_lang\_syntax\_grammar_\_production\" />
+    <Folder Include="nilnul0\_\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_lex\token\Priority.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="PostBuildMacros">
+    <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
+      <Output TaskParameter="Assemblies" ItemName="Targets" />
+    </GetAssemblyIdentity>
+    <ItemGroup>
+      <VersionNumber Include="@(Targets->'%(Version)')" />
+      <MajorMinor Include="$([System.Text.RegularExpressions.Regex]::Replace(&quot;%(Targets.Version)&quot;, &quot;^([^\.]+)\.([^\.]+)(.*)$&quot;, &quot;$1.$2&quot;))" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <nilnulTime>$([System.DateTime]::UtcNow.ToString("yyMMddHHmmss"))</nilnulTime>
+    <nilnulPattern4date>^.{6}</nilnulPattern4date>
+    <nilnulDate>$([System.Text.RegularExpressions.Regex]::Match($(nilnulTime), $(nilnulPattern4date)))</nilnulDate>
+    <nilnulPattern4clock>.{6}$</nilnulPattern4clock>
+    <nilnulClock>$([System.Text.RegularExpressions.Regex]::Match($(nilnulTime), $(nilnulPattern4clock)))</nilnulClock>
+    <nilnulClockCollapsed>$(nilnulClock.TrimStart('0'))</nilnulClockCollapsed>
+    <_nilnulClockPrefixed>.$(nilnulClockCollapsed)</_nilnulClockPrefixed>
+    <nilnulClockPrefixed>$(_nilnulClockPrefixed.TrimEnd('.'))</nilnulClockPrefixed>
+    <nilnulPatchRevision>$(nilnulDate)$(nilnulClockPrefixed)</nilnulPatchRevision>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEventDependsOn>
+			$(PostBuildEventDependsOn);
+			PostBuildMacros;
+		</PostBuildEventDependsOn>
+    <PostBuildEvent>echo ConfigurationName is $(ConfigurationName)
+if $(ConfigurationName) == Release (
+	"NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source local
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source my
+) ELSE (
+	if  $(ConfigurationName)==Symbol (
+		"NuGet.exe" pack "$(ProjectPath)" -Symbols -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source local
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source my
+	)
+	if  $(ConfigurationName)==Nuget (
+		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source nuget.org
+	)
+	if  $(ConfigurationName)==Dev2nuget (
+		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)-dev
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-dev.nupkg -SkipDuplicate -Source nuget.org
+	)
+)</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\..\(packages)\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
