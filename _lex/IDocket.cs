@@ -9,6 +9,11 @@ namespace nilnul.lang._lex
 	/// <summary>
 	/// a word, or a punc
 	/// </summary>
+	/// alias:
+	///		entity
+	///		token
+	///		seg0sep.
+	///	<see cref="nilnul.txt_.IWord"/>
 	class IDocket
 	{
 	}

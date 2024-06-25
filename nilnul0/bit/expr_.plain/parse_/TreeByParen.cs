@@ -13,6 +13,8 @@ namespace nilnul.bit.expr_.plain.parse_
 	/// <summary>
 	/// considering the priority(precedence and associativity) of ops and build a tree
 	/// </summary>
+	///
+	[Obsolete("this has be moved into a separate prj: nilnul.lang_._bit_")]
 	public partial class TreeByParen
 	{
 
