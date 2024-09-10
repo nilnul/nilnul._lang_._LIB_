@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.lang
+namespace nilnul.lang._sentences
 {
-	/// <summary>
-	/// <see cref="ITier"/>s and the rel among them;
-	/// </summary>
-	/// 
-	internal class IHier
+	internal class Separator
 	{
+
+		public const string SEP = ";";
 	}
 }

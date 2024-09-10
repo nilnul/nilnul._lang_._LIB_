@@ -1,15 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.lang.tier_.sentence.paragraph._disourse
+namespace nilnul.lang._lex.tok_.punc_
 {
 	/// <summary>
-	/// title, subject,topic, name, caption, theme
+	/// eg:
+	///		()
+	///		[]
+	///		{}
+	///		&lt;&gt;
 	/// </summary>
-	internal class ITopic
+	internal class Clamper
 	{
 	}
 }

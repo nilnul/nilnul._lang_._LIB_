@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nilnul.lang</RootNamespace>
     <AssemblyName>nilnul._lang_._LIB_</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
@@ -153,28 +153,31 @@
       <HintPath>..\..\.deps\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.240624.5119-sym\lib\net481\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.240831.105350\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.231121.55239-sym\lib\net481\nilnul._character_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.240831.105202\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
-    <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.240104.43053-sym\lib\net481\nilnul._num_._LIB_.dll</HintPath>
+    <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.240820.180030\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+      <Private>True</Private>
+      <Aliases>global,num</Aliases>
     </Reference>
-    <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.231206.31605-sym\lib\net481\nilnul._num_._LINQ_.dll</HintPath>
+    <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.240820.180032\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.240621.125108-sym\lib\net481\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.240828.125415\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.231003.172246-sym\lib\net481\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.240831.105626\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.230730.135726-sym\lib\net481\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.240831.105511\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.240612.151012-sym\lib\net481\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.240902.144719\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -187,88 +190,111 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\_nilnul_._LIB_.1.1.230728.104656-sym\lib\net481\_nilnul_._LIB_.dll</HintPath>
+    <Reference Include="_nilnul_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\.deps\_nilnul_._LIB_.1.1.240820.60235\lib\net48\_nilnul_._LIB_.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\_nilnul_._LINQ_.1.1.230709.141821-sym\lib\net481\_nilnul_._LINQ_.dll</HintPath>
+    <Reference Include="_nilnul_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230">
+      <HintPath>..\..\.deps\_nilnul_._LINQ_.1.1.240820.60236\lib\net48\_nilnul_._LINQ_.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app_\IComm.cs" />
     <Compile Include="be_\Ambiguous.cs" />
     <Compile Include="compile\IBuild.cs" />
+    <Compile Include="functional\Inline.cs" />
+    <Compile Include="grammar\Category.cs" />
     <Compile Include="grammar_\ILex.cs" />
     <Compile Include="grammar_\IStructure.cs" />
     <Compile Include="grammar_\ITex.cs" />
+    <Compile Include="IFunctional.cs" />
+    <Compile Include="IProcedure.cs" />
+    <Compile Include="ISentence.cs" />
     <Compile Include="nilnul0\lang_\IEbnf.cs" />
     <Compile Include="nilnul0\lang_\IProgram.cs" />
     <Compile Include="nilnul0\lang_\IScript.cs" />
+    <Compile Include="nilnul0\lang_\ling\sentence_\keywords\_TexfyX.cs" />
+    <Compile Include="nilnul0\lang_\ling\sentence_\_keywords\tgt\_TexfyX.cs" />
+    <Compile Include="nilnul0\lang_\ling_\IGenerativeByAi.cs" />
     <Compile Include="procedure\Contextualize.cs" />
+    <Compile Include="procedure\exit_\IEarly.cs" />
     <Compile Include="run_\ICompile.cs" />
     <Compile Include="run_\Interpret.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\IExtract.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\ILedger.cs" />
-    <Compile Include="tier_\sentence\paragraph\procedure\IMethod.cs" />
-    <Compile Include="tier_\sentence\paragraph\procedure\IReuse.cs" />
-    <Compile Include="tier_\sentence\paragraph\procedure\method\IReuse.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\IAbstract.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\IEpilog.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\IProlog.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\ISections.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\ITopic.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\_section\ITitle.cs" />
-    <Compile Include="tier_\sentence\paragraph\_procedure\IContext.cs" />
-    <Compile Include="tier_\sentence\_paragraph\IContent.cs" />
-    <Compile Include="tier_\_sentence\_locution\hickey\IEpisteme.cs" />
+    <Compile Include="sentence_\Primitive.cs" />
+    <Compile Include="sentence_\primitives\IToTxt.cs" />
+    <Compile Include="sentence\IQuote.cs" />
+    <Compile Include="sentence\paragraph\discourse\IExtract.cs" />
+    <Compile Include="sentence\paragraph\discourse\ILedger.cs" />
+    <Compile Include="sentence\paragraph\IProse.cs" />
+    <Compile Include="sentence\paragraph\procedure\IMethod.cs" />
+    <Compile Include="sentence\paragraph\procedure\IReuse.cs" />
+    <Compile Include="sentence\paragraph\procedure\method\IReuse.cs" />
+    <Compile Include="sentence\paragraph\_discourse\IAbstract.cs" />
+    <Compile Include="sentence\paragraph\_discourse\IEpilog.cs" />
+    <Compile Include="sentence\paragraph\_discourse\IProlog.cs" />
+    <Compile Include="sentence\paragraph\_discourse\ISections.cs" />
+    <Compile Include="sentence\paragraph\_discourse\ITopic.cs" />
+    <Compile Include="sentence\paragraph\_discourse\_section\ITitle.cs" />
+    <Compile Include="sentence\paragraph\_essay\ITitle.cs" />
+    <Compile Include="sentence\paragraph\_procedure\IContext.cs" />
+    <Compile Include="sentence\_paragraph\IContent.cs" />
+    <Compile Include="nilnul0\lang_\ling\sentence_\IKeywords.cs" />
+    <Compile Include="_functional_\input\ICount.cs" />
+    <Compile Include="_functional_\Parameters.cs" />
+    <Compile Include="_lex\adage_\IFloated.cs" />
+    <Compile Include="_lex\tok_\punc_\Clamper.cs" />
+    <Compile Include="_life\Phrase_.cs" />
+    <Compile Include="_sentence\_locution\hickey\IEpisteme.cs" />
     <Compile Include="_compile\contextual_\contextless_\IDeterministic.cs" />
     <Compile Include="_compile\contextual_\contextless_\IRegular.cs" />
     <Compile Include="_compile\contextual_\contextless_\regular\Recognize.cs" />
     <Compile Include="_compile\contextual_\IContextless.cs" />
     <Compile Include="_compile\IUnrestricted.cs" />
     <Compile Include="ITier.cs" />
-    <Compile Include="tier_\sentence\IParagraphs.cs" />
-    <Compile Include="tier_\sentence\paragraphs\IGroup.cs" />
-    <Compile Include="tier_\sentence\paragraph\ISection.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\IBook.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\ledger\ICorpus.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\section_\IEssay.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\section_\IProse.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\IGrammar.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\_sections\ISeparator.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\_section_\IHeading.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\_section_\ISubsections.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\_section_\IPreamble.cs" />
-    <Compile Include="tier_\_sentence\_locution\_locution\IGrammar.cs" />
-    <Compile Include="tier_\_sentence\_locution\IGrammar.cs" />
-    <Compile Include="tier_\_sentence\ILocution.cs" />
-    <Compile Include="tier_\_sentence\_locution\IForm.cs" />
-    <Compile Include="tier_\_sentence\_locution\_hickey\IRegulation.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\ledger\IApplication.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\IAssembly.cs" />
-    <Compile Include="tier_\_sentence\_locution\_hickey\ICharacter.cs" />
-    <Compile Include="tier_\sentence\paragraph\procedure\method_\IFunction.cs" />
-    <Compile Include="tier_\sentence\paragraph\IProcedure.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\ledger\corpus\ICodebase.cs" />
-    <Compile Include="tier_\_sentence\_locution\hickey_\ISymbol.cs" />
-    <Compile Include="tier_\_sentence\_locution\IHickey.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse_\IType.cs" />
-    <Compile Include="tier_\_sentence\_locution\hickey_\IWord.cs" />
-    <Compile Include="tier_\_sentence\IGrammar.cs" />
-    <Compile Include="tier_\sentence\IParagraph.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\ledger\ICorpora.cs" />
-    <Compile Include="tier_\_sentence\_locution\hickey_\word\IGrammar.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse\_ledger\IChapter.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse_\IEssay.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse_\INotice.cs" />
-    <Compile Include="tier_\sentence\paragraph\discourse_\ITreatise.cs" />
-    <Compile Include="tier_\sentence\paragraph\IDiscourse.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\ISection.cs" />
-    <Compile Include="tier_\sentence\paragraph\_disourse\_section\IDisquisition.cs" />
-    <Compile Include="tier_\_sentence\_locution\_hickey\_character\ICodec.cs" />
-    <Compile Include="tier_\_sentence\IClause.cs" />
-    <Compile Include="tier_\_sentence\ISubstance.cs" />
-    <Compile Include="tier_\_sentence\_pattern\IPartial.cs" />
-    <Compile Include="tier_\_sentence\IPattern.cs" />
+    <Compile Include="sentence\IParagraphs.cs" />
+    <Compile Include="sentence\paragraphs\IGroup.cs" />
+    <Compile Include="sentence\paragraph\ISection.cs" />
+    <Compile Include="sentence\paragraph\discourse\IBook.cs" />
+    <Compile Include="sentence\paragraph\discourse\ledger\ICorpus.cs" />
+    <Compile Include="sentence\paragraph\_discourse\section_\IEssay.cs" />
+    <Compile Include="sentence\paragraph\_discourse\section_\IProse.cs" />
+    <Compile Include="sentence\paragraph\_discourse\IGrammar.cs" />
+    <Compile Include="sentence\paragraph\_discourse\_sections\ISeparator.cs" />
+    <Compile Include="sentence\paragraph\_discourse\_section_\IHeading.cs" />
+    <Compile Include="sentence\paragraph\_discourse\_section_\ISubsections.cs" />
+    <Compile Include="sentence\paragraph\_discourse\_section_\IPreamble.cs" />
+    <Compile Include="_sentence\_locution\_locution\IGrammar.cs" />
+    <Compile Include="_sentence\_locution\IGrammar.cs" />
+    <Compile Include="_sentence\ILocution.cs" />
+    <Compile Include="_sentence\_locution\IForm.cs" />
+    <Compile Include="_sentence\_locution\_hickey\IRegulation.cs" />
+    <Compile Include="sentence\paragraph\discourse\ledger\IApplication.cs" />
+    <Compile Include="sentence\paragraph\discourse\IAssembly.cs" />
+    <Compile Include="_sentence\_locution\_hickey\ICharacter.cs" />
+    <Compile Include="sentence\paragraph\procedure\method_\IFunction.cs" />
+    <Compile Include="sentence\paragraph\IProcedure.cs" />
+    <Compile Include="sentence\paragraph\discourse\ledger\corpus\ICodebase.cs" />
+    <Compile Include="_sentence\_locution\hickey_\ISymbol.cs" />
+    <Compile Include="_sentence\_locution\IHickey.cs" />
+    <Compile Include="sentence\paragraph\discourse_\IType.cs" />
+    <Compile Include="_sentence\_locution\hickey_\IWord.cs" />
+    <Compile Include="_sentence\IGrammar.cs" />
+    <Compile Include="sentence\IParagraph.cs" />
+    <Compile Include="sentence\paragraph\discourse\ledger\ICorpora.cs" />
+    <Compile Include="_sentence\_locution\hickey_\word\IGrammar.cs" />
+    <Compile Include="sentence\paragraph\discourse\_ledger\IChapter.cs" />
+    <Compile Include="sentence\paragraph\discourse_\IEssay.cs" />
+    <Compile Include="sentence\paragraph\discourse_\INotice.cs" />
+    <Compile Include="sentence\paragraph\discourse_\ITreatise.cs" />
+    <Compile Include="sentence\paragraph\IDiscourse.cs" />
+    <Compile Include="sentence\paragraph\_discourse\ISection.cs" />
+    <Compile Include="sentence\paragraph\_discourse\_section\IDisquisition.cs" />
+    <Compile Include="_sentence\_locution\_hickey\_character\ICodec.cs" />
+    <Compile Include="_sentence\IClause.cs" />
+    <Compile Include="_sentence\ISubstance.cs" />
+    <Compile Include="_sentence\_pattern\IPartial.cs" />
+    <Compile Include="_sentence\IPattern.cs" />
     <Compile Include="IConstruct.cs" />
     <Compile Include="IGrammar.cs" />
     <Compile Include="ISemantics.cs" />
@@ -282,6 +308,7 @@
     <Compile Include="grammar\_exec\Compile0interpret.cs" />
     <Compile Include="_compile\_lex\IWhitespace.cs" />
     <Compile Include="_grammar\IComment.cs" />
+    <Compile Include="semantic\_category\Li_.cs" />
     <Compile Include="_semantic\Emit.cs" />
     <Compile Include="_semantic\IRuntime.cs" />
     <Compile Include="grammar\ISymbol.cs" />
@@ -450,6 +477,8 @@
     <Compile Include="_grammar_\ProductionI.cs" />
     <Compile Include="_grammar_\ProductionsI.cs" />
     <Compile Include="_grammar_\Symbols.cs" />
+    <Compile Include="_sentences\Separator.cs" />
+    <Compile Include="_sentence\clauses\_TotxtX.cs" />
     <Compile Include="_tex_\ICompose.cs" />
     <Compile Include="ILex.cs" />
     <Compile Include="ITex.cs" />
@@ -598,10 +627,9 @@
     <Compile Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\lexer\Any.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_tier\IGrammar.cs" />
+    <Compile Include="_tier\Li_.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="grammar\build\" />
-    <Folder Include="grammar\co_\" />
     <Folder Include="grammar\op_\call\" />
     <Folder Include="grammar\op_\unary\" />
     <Folder Include="grammar\_build\phase_\" />
@@ -615,29 +643,25 @@
     <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree\%28retiring\eg.logic\_quodra\" />
     <Folder Include="nilnul0\lang_\bitExpr\compiler_\_binaryTree_\_lex\token\stream_\construct_\" />
     <Folder Include="nilnul0\lang_\bitExpr\lex\" />
-    <Folder Include="nilnul0\lang_\ling\" />
-    <Folder Include="nilnul0\lang_\machine\" />
-    <Folder Include="nilnul0\lang_\nonvar_\" />
-    <Folder Include="nilnul0\lang_\sln\" />
     <Folder Include="nilnul0\lang_\_bit\" />
     <Folder Include="nilnul0\lang_\_cot\" />
     <Folder Include="nilnul0\_lang\_tex\_lex\_expr\op_\" />
     <Folder Include="nilnul0\_\" />
     <Folder Include="semantics\be_\equiv_\" />
-    <Folder Include="tier_\sentence\paragraph\discourse_\essay\" />
-    <Folder Include="tier_\sentence\paragraph\discourse_\_essay\" />
-    <Folder Include="tier_\_sentence\pattern\" />
-    <Folder Include="tier_\_sentence\_locution\hickey\locution\" />
-    <Folder Include="_compile\clause_\type\" />
     <Folder Include="_compile\word\regex\calc_\" />
     <Folder Include="_compile\word_\dev_\" />
     <Folder Include="_compile\_compiler\ret_\Program\" />
     <Folder Include="_compile\_linker\output_\modules\" />
-    <Folder Include="_grammar\rule\_phrase\" />
     <Folder Include="_grammar\_rule_\left\nonterminals\" />
     <Folder Include="_grammar\_rule_\right\nonterminals\" />
     <Folder Include="_grammar\_rule_\right_\" />
-    <Folder Include="_grammar_\_production\" />
+    <Folder Include="_lex\diction_\" />
+    <Folder Include="_lex\hickey\" />
+    <Folder Include="_lex\locution\" />
+    <Folder Include="_lex\_locution\" />
+    <Folder Include="_sentences\sep_\uxp_\" />
+    <Folder Include="_sentence\pattern\" />
+    <Folder Include="_sentence\_locution\hickey\locution\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -678,11 +702,13 @@ if $(ConfigurationName) == Release (
 	"NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
 	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source local
 	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source my
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source nuget
 ) ELSE (
 	if  $(ConfigurationName)==Symbol (
 		"NuGet.exe" pack "$(ProjectPath)" -Symbols -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source local
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source my
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source nuget
 	)
 	if  $(ConfigurationName)==Nuget (
 		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
@@ -694,8 +720,9 @@ if $(ConfigurationName) == Release (
 	)
 	if  $(ConfigurationName)==Sym2nuget (
 		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)-sym
-		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source nuget.org
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source local
 		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source my
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision)-sym.nupkg -SkipDuplicate -Source nuget.org
 	)
 )</PostBuildEvent>
   </PropertyGroup>

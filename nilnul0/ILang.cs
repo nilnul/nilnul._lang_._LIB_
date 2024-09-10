@@ -1,4 +1,4 @@
-﻿namespace nilnul
+namespace nilnul
 {
 	///
 	/// a collection of txt, where the "has" logic is determined by rules;
@@ -11,7 +11,7 @@
 	///		also, lang is more than sentence. it delves into sentence for epxression(semantic)-phrase(syntax)/word/char; it can amass sentences into "Block", and a block has context(such as vars, or dictionary of vars), and funcitonBody(contextual var as inputs), function, class, module.
 	/// </summary>
 	/// <remarks>
-	/// this is formal language. for human language <see cref="nilnul.ling"/>
+	/// this is formal language. for human language <see cref="nilnul.ling"/>.
 	/// </remarks>
 	/// vs:
 	///		ling

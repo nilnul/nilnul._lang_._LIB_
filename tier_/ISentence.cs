@@ -1,4 +1,4 @@
-﻿namespace nilnul.lang.tier_
+namespace nilnul.lang.tier_
 {
 	/// <summary>
 	/// a sentence, which can be:
@@ -22,11 +22,17 @@
 	///		statment
 	///		sentence
 	///		clause
+	///		claus
+	///		clauz
 	///	vs:
 	///		locution:
 	///			the unit less than sentence is lexeme.locution, which is data,conveyed or stroed in database, and is not lang,nor a unit for communication.
 	///
-	///vs:
 	///		locution, which is state of data, whileas this is the transition of data, represented as data.Co
+	///
+	/// vs: line
+	///		a sentence can span multiple lines; and a line can contain multiple sentences;
+	///		sentences are separated with an anchor(0wide assertion): (?&lt=;) or (?&lt})
+
 	interface ISentence { }
 }

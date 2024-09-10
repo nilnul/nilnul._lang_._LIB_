@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,9 @@ namespace nilnul.lang.tier_.sentence
 	///	in poem, it's called verse or 阕
     ///		
     /// </summary>
+	/// alias:
+	///		verse
+	///		block
     internal class IParagraph
 	{
 	}

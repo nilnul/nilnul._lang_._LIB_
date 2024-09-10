@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +14,10 @@ namespace nilnul.lang._lex
 	///		token
 	///		seg0sep.
 	///	<see cref="nilnul.txt_.IWord"/>
+	///		<see cref="lang.tier_._sentence._locution"/>
+	///		<see cref="lang.tier_._sentence._locution.hickey"/>
+	///		<see cref="lang.tier_._sentence._locution.hickey.IEpisteme"/>
+	///		
 	class IDocket
 	{
 	}

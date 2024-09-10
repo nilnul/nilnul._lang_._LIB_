@@ -1,4 +1,4 @@
-﻿namespace nilnul.lang
+namespace nilnul.lang
 {
 	/// <summary>
 	/// In linguistics, syntax (/ˈsɪntæks/ SIN-taks)[1][2] is the study of how words and morphemes combine to form larger units such as phrases and sentences. Central concerns of syntax include word order, grammatical relations, hierarchical sentence structure (constituency),[3] agreement, the nature of crosslinguistic variation, and the relationship between form and meaning (semantics). 

@@ -1,12 +1,12 @@
-﻿namespace nilnul.lang.tier_
+namespace nilnul.lang.tier_
 {
 	/// <summary>
 	/// eg:
 	///		word
 	///		number
-	///		puncturator
+	///		punctuator
 	///		whitespace
-	///			, which is not token, but to seperate tokens in preprocessing.
+	///			, which is not token, but to separate tokens in preprocessing.
 	/// </summary>
 	/// alias:
 	///		symbol

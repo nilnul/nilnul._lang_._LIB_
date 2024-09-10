@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace nilnul.lang
+namespace nilnul.lang.tier_.sentence.paragraph
 {
 	/// <summary>
-	/// <see cref="ITier"/>s and the rel among them;
+	/// one or more paragraph;
 	/// </summary>
-	/// 
-	internal class IHier
+	internal class IProse
 	{
 	}
+
 }
