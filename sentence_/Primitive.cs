@@ -11,9 +11,12 @@ namespace nilnul.lang.sentence_
 	/// ending with ';'
 	/// ,excluding blocks like "{}"
 	/// , including:
-	///		empty
+	///		;
 	///		, expr such as 1,2,3;
 	/// </summary>
+	/// <remarks>
+	/// <see cref="_sentence.clauz.WindUp"/>
+	/// </remarks>
 	/// 
 	internal class Primitive
 	{

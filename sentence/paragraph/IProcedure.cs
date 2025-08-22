@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ namespace nilnul.lang.tier_.sentence.paragraph
 
 	/// <summary>
 	/// the method|function body.
-	/// states (local or contextual variable) with some sentences that transit theml
+	/// states (local or contextual variable) with some sentences that transit them;
 	/// </summary>
 	/// comprises many <see cref="ISentences"/>
 	/// paragraph in ling
@@ -18,6 +18,8 @@ namespace nilnul.lang.tier_.sentence.paragraph
 	///		program
 	///		block
 	///		section
+	///		passage
+	///		parable
 	///	
 	internal class IProcedure
 	{

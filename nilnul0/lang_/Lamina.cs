@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,9 @@ namespace nilnul.lang_
 	/// <summary>
 	/// strata 
 	/// </summary>
-	class Lamina
+	/// vs:
+	///		lamda
+	public interface Lamina:ILang
 	{
 	}
 }

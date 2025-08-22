@@ -15,6 +15,8 @@ namespace nilnul.lang.tier_.sentence
 	/// alias:
 	///		verse
 	///		block
+	///		snippet
+	///			,as in xml, the texes in an element might be multiple consecutively or nonconsecutively;
     internal class IParagraph
 	{
 	}

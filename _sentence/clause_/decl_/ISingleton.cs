@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nilnul.lang._sentence.clause_.decl_
+{
+	/// <summary>
+	/// eg:
+	///		a
+	///		
+	/// </summary>
+	internal class ISingleton
+	{
+	}
+}

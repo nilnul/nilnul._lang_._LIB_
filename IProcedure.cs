@@ -5,5 +5,10 @@ namespace nilnul.lang
 	/// </summary>
 	///
 	/// <see cref="nilnul.lang.functional"/>
+	/// alias:
+	///		routine
+	///		subroutine
+	///		procedure
+	///		
 	interface IProcedure { }
 }

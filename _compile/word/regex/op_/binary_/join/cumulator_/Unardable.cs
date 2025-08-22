@@ -1,4 +1,4 @@
-﻿using nilnul.obj.op_;
+using nilnul.obj.op_;
 using nilnul.obj.op_.binary;
 using nilnul.obj.op_.binary._cumulator_;
 using System;
@@ -38,7 +38,9 @@ namespace nilnul._lang._syntax.grammar_.regex.op_.binary_.join.cumulator_
 			}
 		}
 
-		obj.op_.BinaryI<RegexI> obj.of_.binary._cumulator_.BinderI<obj.op_.BinaryI<RegexI>>.binder => base.binder;
+		obj.op_.BinaryI<RegexI> obj.bi._cumula_.BinderI<obj.op_.BinaryI<RegexI>>.binder => binder;
+
+		//obj.op_.BinaryI<RegexI> obj.of_.binary._cumulator_.BinderI<obj.op_.BinaryI<RegexI>>.binder => base.binder;
 
 		//obj.op_.BinaryI<RegexI> obj.of_.binary._cumulator_.BinderI<obj.op_.BinaryI<RegexI>>.binder => base.binder;
 

@@ -8,7 +8,7 @@ namespace nilnul.lang.sentence_.primitives
 {
 	/// <summary>
 	/// as each sentence is already ended with ';', we don't need any separator here.
-	/// to use separator, <see cref="_sentence."/>
+	/// to use separator, <see cref="_sentence.clauses._TxtenX"/>
 	/// </summary>
 	internal class IToTxt
 	{

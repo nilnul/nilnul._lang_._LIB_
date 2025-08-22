@@ -1,4 +1,4 @@
-﻿namespace nilnul.lang
+namespace nilnul.lang
 {
 	/// <summary>
 	/// from chars to a linear string of word0puncS. note: word0punc, unlike <see cref="_tex.ISymbol"/>, cannot be 0length.
@@ -11,5 +11,12 @@
 	/// vs:
 	///		<see cref="nilnul.ILang"/>
 	///		<see cref="_lang._tex.ILex"/>
-	 interface ILex { }
+	public interface ILex
+		:nilnul.obj.ITo<
+			nilnul.character.IStr
+			,
+			nilnul.obj.IStr< _lex.IDocket>
+		>
+	{ }
+
 }
